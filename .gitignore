@@ -1,0 +1,35 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.streamlit/
+
+# Secrets, sessions, and personal application data
+data/jobs.db
+data/jobs.db-*
+data/*.sqlite
+data/browser_profile/
+data/run.lock
+data/profile_resume_date.txt
+logs/*.log
+reports/**
+!reports/.gitkeep
+
+# Master resume is personal. A placeholder is created locally if missing.
+resume/master_resume.docx
+resume/overleaf/
+resume/generated/*.docx
+resume/generated/*.pdf
+resume/generated/*.tex
+resume/generated/.build/
+resume/profile/
+.tools/
+
+# Browser and auth artifacts
+*.session
+*.cookies
+*cookies*.json
+playwright/.auth/

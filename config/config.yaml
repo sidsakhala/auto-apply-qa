@@ -1,0 +1,51 @@
+# Naukri QA / Automation job agent — separate from auto-apply (AI roles).
+application_mode: automatic
+
+apply_jobs: false
+
+minimum_match_score: 70
+
+scoring:
+  role_relevance: 25
+  skills_match: 25
+  experience_match: 15
+  salary: 15
+  location: 10
+  cloud_ai: 5
+  other: 5
+
+rate_limits:
+  max_applications_per_run: 0
+  max_applications_per_day: 0
+  min_delay_seconds: 10
+  max_delay_seconds: 30
+
+schedule:
+  interval_hours: 2
+
+search:
+  max_search_queries: 45
+  max_pages: 2
+  max_jobs_per_query: 15
+  min_delay_seconds: 4
+  max_delay_seconds: 8
+  max_new_jobs_per_run: 40
+  freshness_days: 1
+  profile_jobs_enabled: true
+  max_profile_jobs: 30
+
+browser:
+  headless: false
+  slow_mo_ms: 50
+  user_data_dir: data/browser_profile
+  navigation_timeout_ms: 45000
+
+paths:
+  master_resume: resume/master_resume.docx
+  base_resume: resume/base_resume.pdf
+  generated_dir: resume/generated
+  overleaf_project: ""
+  overleaf_dir: resume/overleaf
+  database: data/jobs.db
+  reports: reports
+  logs: logs

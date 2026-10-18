@@ -1,0 +1,62 @@
+candidate:
+  experience_min_years: 3
+  experience_max_years: 3
+  minimum_job_experience_years: 3
+  maximum_job_experience_years: 3
+
+  current_ctc_lpa: 6
+  expected_ctc_lpa: 10
+  minimum_expected_ctc_lpa: 8
+
+  preferred_locations:
+    - Pune
+    - Hyderabad
+    - Bangalore
+    - Bengaluru
+
+  location_priority:
+    - Pune
+    - Hyderabad
+    - Bangalore
+
+  consider_remote_or_hybrid: true
+  minimum_role_relevance: 55
+  skills: []
+
+target_roles:
+  - Automation Test Engineer
+  - QA Automation Engineer
+  - Software Test Engineer
+  - SDET
+  - QA Engineer
+  - Quality Assurance Engineer
+  - Test Automation Engineer
+  - Selenium Automation Engineer
+  - API Test Engineer
+  - Performance Test Engineer
+  - Manual Test Engineer
+  - QA Lead
+  - Automation Engineer
+
+related_jd_signals:
+  - Selenium
+  - Playwright
+  - Cypress
+  - TestNG
+  - JUnit
+  - PyTest
+  - Cucumber
+  - BDD
+  - API Testing
+  - Postman
+  - Rest Assured
+  - JMeter
+  - CI/CD
+  - Jenkins
+  - GitHub Actions
+  - Java
+  - Python
+  - Agile
+  - Scrum
+  - Defect Tracking
+  - JIRA
